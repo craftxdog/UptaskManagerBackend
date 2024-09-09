@@ -36,6 +36,6 @@
 
 ![env_file.png](./public/env_file.png)
 
-# 🎛️ Controllers
+# 🎛️ Routes
 
-![backend_controllers.png](./public/backend_controllers.png)
+![backend_routes.png](./public/backend_routes.png)
