@@ -1,8 +1,8 @@
-# Backend Directories 🔭
+# Backend Directories 📁
 
 ![backend_directories.png](./public/backend_directories.png)
 
-# 💠 Requirements
+# 🔭 Requirements
 
 #### Before you begin, make sure you have the following installed on your system:
 
@@ -10,4 +10,8 @@
 
 > **npm**: Included with Node.js.
 
-# 📦 Installation
+# 📦 Installation.
+
+# ⚙️ Configuration
+
+![env_file.png](./public/env_file.png)
