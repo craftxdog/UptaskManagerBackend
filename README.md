@@ -12,6 +12,14 @@
 
 # 📦 Installation.
 
+#### Follow these steps to set up and run the project:
+
+1. **Clone the repository and navigate to the project directory**:
+
+```bash
+   git clone git@github.com:craftxdog/UptaskManagerBackend.git && cd UptaskManagerBackend
+```
+
 # ⚙️ Configuration
 
 ![env_file.png](./public/env_file.png)
