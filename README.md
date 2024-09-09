@@ -12,7 +12,7 @@
 
 # 📦 Installation.
 
-#### Follow these steps to set up and run the project:
+### Follow these steps to set up and run the project:
 
 1. **Clone the repository and navigate to the project directory**:
 
@@ -20,6 +20,22 @@
    git clone git@github.com:craftxdog/UptaskManagerBackend.git && cd UptaskManagerBackend
 ```
 
+2. **Install project dependencies**:
+
+```bash
+   npm install
+```
+
+3. **Run the development server (optional)**:
+
+```bash
+   npm run dev
+```
+
 # ⚙️ Configuration
 
 ![env_file.png](./public/env_file.png)
+
+# 🎛️ Controllers
+
+![backend_controllers.png](./public/backend_controllers.png)
