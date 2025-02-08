@@ -100,6 +100,7 @@ export class AuthController {
       }
 
       const token = generateJWT({ id: user._id as Types.ObjectId });
+      console.log(user.id);
 
       res.send(token);
     } catch (error) {
