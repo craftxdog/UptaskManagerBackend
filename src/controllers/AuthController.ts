@@ -1,11 +1,11 @@
 import type { Request, Response } from "express";
+import { Types } from "mongoose";
 import { AuthEmail } from "../emails/AuthEmail";
 import Token from "../models/Token";
 import User from "../models/User";
 import { checkPassword, hashPassword } from "../utils/auth";
 import { generateJWT } from "../utils/jwt";
 import { generateToken } from "../utils/token";
-import { ObjectId } from "mongoose";
 
 export class AuthController {
   static createAccount = async (req: Request, res: Response) => {
@@ -99,7 +99,7 @@ export class AuthController {
         return res.status(401).json({ error: error.message });
       }
 
-      const token = generateJWT({ id: user._id as ObjectId });
+      const token = generateJWT({ id: user._id as Types.ObjectId });
 
       res.send(token);
     } catch (error) {
@@ -270,4 +270,3 @@ export class AuthController {
     res.send("Password Correcto");
   };
 }
-
